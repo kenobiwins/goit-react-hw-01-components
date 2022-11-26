@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kenobiwins/goit-react-hw-01-components/static/css/main.4c0e5b33.css",
-    "main.js": "/kenobiwins/goit-react-hw-01-components/static/js/main.b1c54e21.js",
+    "main.css": "/kenobiwins/goit-react-hw-01-components/static/css/main.7657f91e.css",
+    "main.js": "/kenobiwins/goit-react-hw-01-components/static/js/main.7c0b724f.js",
     "index.html": "/kenobiwins/goit-react-hw-01-components/index.html",
-    "main.4c0e5b33.css.map": "/kenobiwins/goit-react-hw-01-components/static/css/main.4c0e5b33.css.map",
-    "main.b1c54e21.js.map": "/kenobiwins/goit-react-hw-01-components/static/js/main.b1c54e21.js.map"
+    "main.7657f91e.css.map": "/kenobiwins/goit-react-hw-01-components/static/css/main.7657f91e.css.map",
+    "main.7c0b724f.js.map": "/kenobiwins/goit-react-hw-01-components/static/js/main.7c0b724f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c0e5b33.css",
-    "static/js/main.b1c54e21.js"
+    "static/css/main.7657f91e.css",
+    "static/js/main.7c0b724f.js"
   ]
 }
