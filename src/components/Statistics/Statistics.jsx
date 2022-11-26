@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { color } from 'styled-system';
 import {
     StatisticsSection,
     StatisticsTitle,

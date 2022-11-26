@@ -1,4 +1,3 @@
-import { number } from "prop-types";
 import styled from "styled-components";
 
 export const ProfileCard = styled.div`
