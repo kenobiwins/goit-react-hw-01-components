@@ -19,7 +19,7 @@ export const StatisticsListItem = styled.li`
 display:flex;
 flex-direction:column;
 gap:${p => p.theme.space[2]}px;
-flex-basis:20%;
+flex-basis:25%;
 padding:${p => p.theme.space[3]}px;
 color:${p => p.theme.colors.white};
 background-color:${p => {
@@ -32,8 +32,6 @@ background-color:${p => {
             return 'red';
         case 3:
             return 'brown';
-        case 4:
-            return '#f64ce8';
         default:
             return 'white';
     }
