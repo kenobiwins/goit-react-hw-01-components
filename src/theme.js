@@ -2,9 +2,12 @@ export const theme = {
   colors: {
     black: '#000',
     white: '#fff',
+    green: '#00ce00',
+    red: '#fb1a1a',
     text: '#2a2a2ab3',
     background: '#fff',
     backgroundSecondary: '#e0e4e8',
+    backgroundTableHead: '#78e0e6',
     borderColor: '#b8b2b2b3',
     primary: '#07c',
     secondary: '#05a',

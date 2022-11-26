@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProfileCard = styled.div`
-max-width:250px;
+max-width:300px;
 box-shadow: 2px 2px 6px 0px rgba(97,90,90,0.66);
 border-radius:${p => p.theme.radii.sm};
 overflow:hidden;
@@ -16,6 +16,7 @@ padding:${p => p.theme.space[5]}px;
 background-color:${p => p.theme.colors.background};
 
 img{
+    width:100%;
     border-radius:${p => p.theme.radii.round};
 }
 `;

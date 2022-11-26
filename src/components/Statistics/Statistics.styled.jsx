@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StatisticsSection = styled.section`
-width:250px;
+width:300px;
 `;
 
 export const StatisticsTitle = styled.h2`
