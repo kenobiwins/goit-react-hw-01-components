@@ -3,9 +3,9 @@ import { Statistics } from "./Statistics/Statistics";
 import { FriendList } from "./FriendList/FriendList";
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 import { Box } from "./Box";
-import { ThemeProvider } from "styled-components";
+// import { ThemeProvider } from "styled-components";
 
-import {theme} from '../theme.js';
+// import {theme} from '../theme.js';
 import user from '../user.json';
 import data from '../data.json';
 import friends from '../friends.json';
