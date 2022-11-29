@@ -10,19 +10,19 @@ import user from '../user.json';
 import data from '../data.json';
 import friends from '../friends.json';
 import transactions from '../transactions.json';
+import { GlobalStyle } from "./GlobalStyle.js";
 
 
 export const App = () => {
   return (
     <>
-      <ThemeProvider theme={theme}>
-        <Box>
+      <Box >
           <Profile user={user} />
           <Statistics title={"Upload stats"} stats={data} />
           <FriendList friends={friends} />
           <TransactionHistory transactions={transactions} />
-        </Box>
-      </ThemeProvider>
+      </Box>
+      <GlobalStyle/>
     </>
   );
 };
