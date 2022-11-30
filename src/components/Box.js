@@ -1,23 +1,21 @@
 import styled from 'styled-components';
 
 import {
-  color,
-  space,
   layout,
-  flexbox,
+  color,
   grid,
   background,
   border,
   position,
   display,
+  flexDirection,
 } from 'styled-system';
 
 export const Box = styled('div')({
-  display,
-  color,
-  space,
   layout,
-  flexbox,
+  display,
+  flexDirection,
+  color,
   grid,
   background,
   border,

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProfileCard = styled.div`
-max-width:300px;
+// max-width:300px;
 box-shadow: 2px 2px 6px 0px rgba(97,90,90,0.66);
 border-radius:${p => p.theme.radii.sm};
 overflow:hidden;
