@@ -12,7 +12,7 @@ export const Statistics = ({ title, stats }) => {
       {title && <StatisticsTitle>{title.toUpperCase()}</StatisticsTitle>}
       <StatisticsList>
         {stats.map(({ id, label, percentage }) => (
-          <StatisticsListItem key={id}>
+          <StatisticsListItem key={id} id={id}>
             <span>{label}</span>
             <span>{percentage}%</span>
           </StatisticsListItem>

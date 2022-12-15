@@ -24,13 +24,13 @@ export const StatisticsListItem = styled.li`
   color: ${p => p.theme.colors.white};
   background-color: ${p => {
     switch (p.id) {
-      case 0:
+      case 'id-1':
         return 'orange';
-      case 1:
+      case 'id-2':
         return 'blue';
-      case 2:
+      case 'id-3':
         return 'red';
-      case 3:
+      case 'id-4':
         return 'brown';
       default:
         return 'white';
