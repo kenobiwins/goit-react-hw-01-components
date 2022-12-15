@@ -22,18 +22,19 @@ export const StatisticsListItem = styled.li`
   flex-basis: 25%;
   padding: ${p => p.theme.space[3]}px;
   color: ${p => p.theme.colors.white};
-  background-color: ${p => {
-    switch (p.id) {
-      case 'id-1':
-        return 'orange';
-      case 'id-2':
-        return 'blue';
-      case 'id-3':
-        return 'red';
-      case 'id-4':
-        return 'brown';
-      default:
-        return 'white';
-    }
-  }};
+  background-color: ${p => p.color};
 `;
+// background-color: ${p => {
+//   switch (p.id) {
+//     case 'id-1':
+//       return 'orange';
+//     case 'id-2':
+//       return 'blue';
+//     case 'id-3':
+//       return 'red';
+//     case 'id-4':
+//       return 'brown';
+//     default:
+//       return 'white';
+//   }
+// }};
